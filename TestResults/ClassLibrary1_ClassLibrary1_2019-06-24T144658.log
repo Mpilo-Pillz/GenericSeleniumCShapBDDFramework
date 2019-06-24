@@ -1,0 +1,55 @@
+﻿2019-06-24T14:46:58.4489554+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-06-24T14:46:58.4539392+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Tenacity\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-24T14:46:58.6015442+02:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-24T14:46:58.6015442+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Tenacity\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+2019-06-24T14:46:58.6015442+02:00;VSTestExecutionThread;Info;Profile: ClassLibrary1
+2019-06-24T14:47:09.7585925+02:00;Thread#13;Info;starting test run
+2019-06-24T14:47:09.7828329+02:00;Thread#13;Info;Discovering target: Default
+2019-06-24T14:47:09.7833363+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Tenacity\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ClassLibrary1/ClassLibrary1 - 
+#1: Default - 
+#2: ClassLibrary1 - 
+#3: spectest - 
+#4: Add two numbers - TestAssembly:ClassLibrary1/Feature:spectest/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I go to the url 'www.betway.com'
+Thread#0:T:done: SpectestSteps.GivenIGoToTheUrl("www.betway.com") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 3.6797619 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-24T14:47:14.0510701+02:00;Thread#13;Info;test run finished
+2019-06-24T14:47:14.0520396+02:00;Thread#13;Info;publishing test results
+2019-06-24T14:47:14.0749786+02:00;Thread#13;Info;test results published
+2019-06-24T14:47:14.0760264+02:00;Thread#13;Info;generating reports
+2019-06-24T14:47:14.0829561+02:00;Thread#13;Info;creating 1 report(s)
+2019-06-24T14:47:14.0829561+02:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-06-24T14:47:15.0939542+02:00;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-06-24T14:47:15.0989397+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-24T14:47:15.0989397+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Tenacity\source\repos\ClassLibrary1\TestResults\ClassLibrary1_ClassLibrary1_2019-06-24T144658.html'
+2019-06-24T14:47:15.1049237+02:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Tenacity\source\repos\ClassLibrary1\TestResults\ClassLibrary1_ClassLibrary1_2019-06-24T144658.log

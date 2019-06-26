@@ -82,20 +82,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Features\spectest.feature.cs">
+    <Compile Include="Features\Registration.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>spectest.feature</DependentUpon>
+      <DependentUpon>Registration.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Steps\SpectestSteps.cs" />
+    <Compile Include="Steps\Asserts_Step_Definitions.cs" />
+    <Compile Include="Steps\Send_Keys_Step_Definitions.cs" />
+    <Compile Include="Steps\Clicking_Step_Definition.cs" />
+    <Compile Include="Steps\Driver_Step_Definitions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Default.srprofile" />
-    <None Include="Features\spectest.feature">
+    <None Include="Features\Registration.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>spectest.feature.cs</LastGenOutput>
+      <LastGenOutput>Registration.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />

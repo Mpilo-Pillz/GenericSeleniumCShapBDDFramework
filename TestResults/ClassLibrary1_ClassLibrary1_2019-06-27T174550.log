@@ -1,0 +1,106 @@
+﻿2019-06-27T17:45:50.4429793+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-06-27T17:45:50.4479446+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Tenacity\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-27T17:45:50.5895638+02:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-27T17:45:50.5895638+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Tenacity\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+2019-06-27T17:45:50.5895638+02:00;VSTestExecutionThread;Info;Profile: ClassLibrary1
+2019-06-27T17:45:59.6919481+02:00;Thread#13;Info;starting test run
+2019-06-27T17:45:59.6989307+02:00;Thread#13;Info;Discovering target: Default
+2019-06-27T17:45:59.6997586+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Tenacity\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ClassLibrary1/ClassLibrary1 - 
+#1: Default - 
+#2: ClassLibrary1 - 
+#3: spectest - 
+#4: Register - TestAssembly:ClassLibrary1/Feature:spectest/Scenario:Register
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ClassLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I go to the url 'https://www.google.com'
+Thread#0:T:done: Driver_Step_Definitions.GivenIGoToTheUrl("https://www.googl...") (3.1s)
+Thread#0:B:When I click on the 'Register' element
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:And I enter 'username' on the 'usernameByID' element
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should see that the element 'Signin' is displayed
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 10.2949507 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I go to the url 'https://www.google.com'
+Thread#0:T:error: no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=75.0.3770.100)
+Thread#0:T:  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+Thread#0:B:When I click on the 'Register' element
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter 'username' on the 'usernameByID' element
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should see that the element 'Signin' is displayed
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0169538 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I go to the url 'https://www.google.com'
+Thread#0:T:error: no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=75.0.3770.100)
+Thread#0:T:  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+Thread#0:B:When I click on the 'Register' element
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter 'username' on the 'usernameByID' element
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should see that the element 'Signin' is displayed
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0099697 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-27T17:46:10.7021327+02:00;Thread#13;Info;test run finished
+2019-06-27T17:46:10.7021327+02:00;Thread#13;Info;publishing test results
+2019-06-27T17:46:10.7390332+02:00;Thread#13;Info;test results published
+2019-06-27T17:46:10.7390332+02:00;Thread#13;Info;generating reports
+2019-06-27T17:46:10.7529950+02:00;Thread#13;Info;creating 1 report(s)
+2019-06-27T17:46:10.7529950+02:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-06-27T17:46:12.0908967+02:00;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-06-27T17:46:12.0968807+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-27T17:46:12.0968807+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Tenacity\source\repos\ClassLibrary1\TestResults\ClassLibrary1_ClassLibrary1_2019-06-27T174550.html'
+2019-06-27T17:46:12.1078513+02:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Tenacity\source\repos\ClassLibrary1\TestResults\ClassLibrary1_ClassLibrary1_2019-06-27T174550.log

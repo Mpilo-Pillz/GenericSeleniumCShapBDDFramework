@@ -9,4 +9,5 @@ Scenario: Register
 	When I click on the 'Register' element
 	And I enter 'username' on the 'usernameByID' element
 	Then I should see that the element 'Signin' is displayed
+	When I take a screenshot 'landingPage' and store it on 'Pictures'
 	

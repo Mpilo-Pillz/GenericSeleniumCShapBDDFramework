@@ -76,9 +76,13 @@ this.ScenarioSetup(scenarioInfo);
 #line 9
  testRunner.When("I click on the \'Register\' element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
- testRunner.And("I enter \'username\' on the \'usernameByID\' element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I scroll to \'button\' with the text \'signin\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 11
+ testRunner.And("I enter \'username\' on the \'usernameByID\' element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 12
  testRunner.Then("I should see that the element \'Signin\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 13
+ testRunner.When("I take a screenshot \'landingPage\' and store it on \'Pictures\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             this.ScenarioCleanup();
         }
